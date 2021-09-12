@@ -1,9 +1,3 @@
-# Wp Customizer
-Wordpress Customizer option Code
+# WP Scripts
 
-Include Options: 
 
-Social Media Links,
-Phone,
-Fax,
-EmailID
