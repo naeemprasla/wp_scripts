@@ -5,6 +5,6 @@
 - WP Theme Customizer Option Script, 
 - WP Custom Taxonomy Script
 - WooCommerce Methods List, 
-
+- Disable Block Widgets + Editor
 
 
