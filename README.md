@@ -6,5 +6,7 @@
 - WP Custom Taxonomy Script
 - WooCommerce Methods List, 
 - Disable Block Widgets + Editor
+- Custom Loop
+- Custom Loop with Pagination
 
 
