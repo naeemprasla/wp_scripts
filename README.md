@@ -1,4 +1,4 @@
-# WP Scripts
+# Scripts
 
 - BS Classes Activation in WPBakery Builder, 
 - Custom Post Type Function, 
@@ -8,5 +8,6 @@
 - Disable Block Widgets + Editor
 - Custom Loop
 - Custom Loop with Pagination
+- Php Mail Headers
 
 
