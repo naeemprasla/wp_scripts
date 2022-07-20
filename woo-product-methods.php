@@ -1,4 +1,11 @@
 <?php 
+/*
+Usage : https://github.com/naeemprasla/scripts/blob/master/woo-bestselling-and-recently-viewed-products-loop.php
+*/
+
+
+global $product;
+
 // Get Product ID
  
 $product->get_id(); //(fixes the error: "Notice: id was called incorrectly. Product properties should not be accessed directly")
