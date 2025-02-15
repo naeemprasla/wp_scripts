@@ -1,0 +1,26 @@
+import wixData from 'wix-data';
+
+$w.onReady(function () {
+    const collectionName = "Services"; // Replace with your collection ID
+
+    wixData.query(collectionName)
+        .limit(10) // Fetch first 10 items
+        .find()
+        .then((results) => {
+            if (results.items.length > 0) {
+                let items = results.items;
+                console.log(items); // Log data to check
+                $w("#repeater6").data = items; // Bind data to Repeater
+				$w("#repeater6").onItemReady(($item, itemData) => {
+					$item("#text10").text = itemData.title; // Replace with actual field names
+					$item("#text9").html =  itemData.content; 
+				});
+				
+            } else {
+                console.log("No items found");
+            }
+        })
+        .catch((err) => {
+            console.error("Error fetching data:", err);
+        });
+});
